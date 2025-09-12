@@ -1,0 +1,13 @@
+﻿
+using Tyuiu.PavlovaVV.Sprint0.Task4.V0.Lib;
+namespace Tyuiu.PavlovaVV.Sprint0.Task4.V0
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(DataService.Sum(7, 7));
+            Console.ReadKey();
+        }
+    }
+}
